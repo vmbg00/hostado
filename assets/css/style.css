@@ -558,8 +558,6 @@ input:-ms-input-placeholder {
 	
 }
 
-
-
 /* Home Section */
 .home{
     background: url(../images/homebg.jpg) no-repeat 100% 100%;
@@ -725,6 +723,8 @@ input:-ms-input-placeholder {
 }
 .pricing_content{
     width:100%;
+    display: flex;
+    justify-content: center;
     margin:0 auto;
 }
 /*.pricing .pricing_head .icon_area{
@@ -889,6 +889,12 @@ input:-ms-input-placeholder {
         
 }
 
+.header-plans {
+    text-align: center;
+    margin: 10%;
+    color: dark;
+}
+
 
 .abouts_area .single_team .team_img img{
     width:100px;
@@ -959,7 +965,10 @@ input:-ms-input-placeholder {
 .service{
     padding: 80px 0px;
 }
-.main_service{}
+.main_service{
+    display: flex;
+    justify-content: center;
+}
 .single_service{
     margin-top: 20px;
 }
