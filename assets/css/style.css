@@ -37,6 +37,39 @@ PRE LOADER
     overflow: hidden !important;
 }
 
+.heading-text {
+    text-align: center;
+    margin: 10% 0 5% 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-vps-configuration {
+    border: 1px solid black;
+    padding: 2em;
+    box-shadow: 0px 0px 10px 6px #888888;
+
+
+}
+
+.select-options {
+    width: 100%;
+    font-size: 20px;
+}
+
+.region-radio-group-container form label {
+    display: block;
+    font-size: 20px;
+}
+
+
+.gap {
+    margin: 10% 0;
+}
+
 .loaded {
     width: 60px;
     height: 60px;
